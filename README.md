@@ -29,4 +29,4 @@ fi
 $result > dev/null
 ```
 3. 在.gitForbiddenKeywords文件中以|分隔添加需要过滤禁止提交的敏感词，如 HW|ZTE|TENGXUN
-4. 若需强制提交某次包含敏感词的文件，需用命令行 ```git commit --no-verify m"comment-msg"``` 进行提交
+4. 若需强制提交某次包含敏感词的文件，需用命令行 ```git commit --no-verify -m"comment-msg"``` 进行提交
